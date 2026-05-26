@@ -1,0 +1,7 @@
+method,silhouette,n_clusters,hotspot_clusters,hotspot_molecules,normal_molecules,bic
+"KMeans++ (x,y,λA)",0.6347727613650785,4.0,1.0,34.0,186.0,
+"GMM (x,y,A)",0.626168449466636,4.0,1.0,34.0,186.0,1171.0303517911225
+KDE + KMeans++,0.5466456287321343,4.0,1.0,39.0,181.0,
+"ARI(KMeans++ (x,y,λA) vs GMM (x,y,A))",1.0,,,,,
+"ARI(KMeans++ (x,y,λA) vs KDE + KMeans++)",0.8459202221702133,,,,,
+"ARI(GMM (x,y,A) vs KDE + KMeans++)",0.8459202221702133,,,,,
